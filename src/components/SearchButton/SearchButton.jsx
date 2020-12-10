@@ -17,7 +17,7 @@ const theme = createMuiTheme({
 const SearchButton = (props) => {
 
     return (
-        <Button variant="contained" color="primary" onClick={props.submitHandler}>
+        <Button variant="contained" color="primary" onClick={props.submitHandler} onFocusVisible={false} buttonRef={props.reference}>
             Search
         </Button>
     );

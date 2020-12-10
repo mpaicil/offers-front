@@ -6,10 +6,12 @@ const SearchInput = (props) => {
     return (
         <TextField id="outlined-search" 
         label="Search products by id or text"
-         type="search" 
-         variant="outlined" 
-         size='small'
-         fullWidth={true}
+        type="search"
+        name="searchInput"
+        variant="outlined" 
+        size='small'
+        fullWidth={true}
+        inputRef={props.reference}
          />
     );
 

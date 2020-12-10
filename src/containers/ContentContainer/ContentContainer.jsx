@@ -13,13 +13,16 @@ const Content = (props) => {
             return state.search.results.products
     })
 
-    useEffect(() => {
+    useEffect(() => {/*
         if (datos === undefined) {
-            const results = dispatch(searchData({ search: 'Televi' }))
+            //const results = dispatch(searchData({ search: 'Televi' }))
         } else {
             setProducts(datos)
         }
-
+        */
+        if (datos !== undefined) {
+            setProducts(datos)
+        }
     })
 
     const renderProducts = () => {
