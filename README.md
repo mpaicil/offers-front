@@ -11,9 +11,9 @@ Para poder hacer uso de este proyecto es necesario lo siguiente:
 - offers-bff        ( puerto 3000  )
 
 Teniendo lo anterior listo podemos ejecutar el siguiente comando:
-
+```sh
 git checkout master && npm install && npm start
-
+```
 Con lo anterior debería cargar la pagina en el puerto 8000
 
 
